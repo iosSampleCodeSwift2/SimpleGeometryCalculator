@@ -1,0 +1,441 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		598F92151DB5BC1C004F9597 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 598F92141DB5BC1C004F9597 /* AppDelegate.swift */; };
+		598F92171DB5BC1C004F9597 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 598F92161DB5BC1C004F9597 /* ViewController.swift */; };
+		598F921A1DB5BC1C004F9597 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 598F92181DB5BC1C004F9597 /* Main.storyboard */; };
+		598F921C1DB5BC1C004F9597 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 598F921B1DB5BC1C004F9597 /* Assets.xcassets */; };
+		598F921F1DB5BC1C004F9597 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 598F921D1DB5BC1C004F9597 /* LaunchScreen.storyboard */; };
+		598F922A1DB5BC1C004F9597 /* SimpleGeometryCalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 598F92291DB5BC1C004F9597 /* SimpleGeometryCalculatorTests.swift */; };
+		598F923D1DB5BC69004F9597 /* Cone.swift in Sources */ = {isa = PBXBuildFile; fileRef = 598F92341DB5BC69004F9597 /* Cone.swift */; };
+		598F923E1DB5BC69004F9597 /* Cylinder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 598F92351DB5BC69004F9597 /* Cylinder.swift */; };
+		598F923F1DB5BC69004F9597 /* Geometry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 598F92361DB5BC69004F9597 /* Geometry.swift */; };
+		598F92401DB5BC69004F9597 /* GeometryCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 598F92371DB5BC69004F9597 /* GeometryCalculator.swift */; };
+		598F92411DB5BC69004F9597 /* GeometryType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 598F92381DB5BC69004F9597 /* GeometryType.swift */; };
+		598F92421DB5BC69004F9597 /* IsoscelesTriangularPrism.swift in Sources */ = {isa = PBXBuildFile; fileRef = 598F92391DB5BC69004F9597 /* IsoscelesTriangularPrism.swift */; };
+		598F92431DB5BC69004F9597 /* RectangularPrism.swift in Sources */ = {isa = PBXBuildFile; fileRef = 598F923A1DB5BC69004F9597 /* RectangularPrism.swift */; };
+		598F92441DB5BC69004F9597 /* Sphere.swift in Sources */ = {isa = PBXBuildFile; fileRef = 598F923B1DB5BC69004F9597 /* Sphere.swift */; };
+		598F92451DB5BC69004F9597 /* SquarePyramid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 598F923C1DB5BC69004F9597 /* SquarePyramid.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		598F92261DB5BC1C004F9597 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 598F92091DB5BC1C004F9597 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 598F92101DB5BC1C004F9597;
+			remoteInfo = SimpleGeometryCalculator;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		598F92111DB5BC1C004F9597 /* SimpleGeometryCalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleGeometryCalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		598F92141DB5BC1C004F9597 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		598F92161DB5BC1C004F9597 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		598F92191DB5BC1C004F9597 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		598F921B1DB5BC1C004F9597 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		598F921E1DB5BC1C004F9597 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		598F92201DB5BC1C004F9597 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		598F92251DB5BC1C004F9597 /* SimpleGeometryCalculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleGeometryCalculatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		598F92291DB5BC1C004F9597 /* SimpleGeometryCalculatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleGeometryCalculatorTests.swift; sourceTree = "<group>"; };
+		598F922B1DB5BC1C004F9597 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		598F92341DB5BC69004F9597 /* Cone.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cone.swift; sourceTree = "<group>"; };
+		598F92351DB5BC69004F9597 /* Cylinder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cylinder.swift; sourceTree = "<group>"; };
+		598F92361DB5BC69004F9597 /* Geometry.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Geometry.swift; sourceTree = "<group>"; };
+		598F92371DB5BC69004F9597 /* GeometryCalculator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GeometryCalculator.swift; sourceTree = "<group>"; };
+		598F92381DB5BC69004F9597 /* GeometryType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GeometryType.swift; sourceTree = "<group>"; };
+		598F92391DB5BC69004F9597 /* IsoscelesTriangularPrism.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IsoscelesTriangularPrism.swift; sourceTree = "<group>"; };
+		598F923A1DB5BC69004F9597 /* RectangularPrism.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RectangularPrism.swift; sourceTree = "<group>"; };
+		598F923B1DB5BC69004F9597 /* Sphere.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Sphere.swift; sourceTree = "<group>"; };
+		598F923C1DB5BC69004F9597 /* SquarePyramid.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SquarePyramid.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		598F920E1DB5BC1C004F9597 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		598F92221DB5BC1C004F9597 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		598F92081DB5BC1C004F9597 = {
+			isa = PBXGroup;
+			children = (
+				598F92131DB5BC1C004F9597 /* SimpleGeometryCalculator */,
+				598F92281DB5BC1C004F9597 /* SimpleGeometryCalculatorTests */,
+				598F92121DB5BC1C004F9597 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		598F92121DB5BC1C004F9597 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				598F92111DB5BC1C004F9597 /* SimpleGeometryCalculator.app */,
+				598F92251DB5BC1C004F9597 /* SimpleGeometryCalculatorTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		598F92131DB5BC1C004F9597 /* SimpleGeometryCalculator */ = {
+			isa = PBXGroup;
+			children = (
+				598F92341DB5BC69004F9597 /* Cone.swift */,
+				598F92351DB5BC69004F9597 /* Cylinder.swift */,
+				598F92361DB5BC69004F9597 /* Geometry.swift */,
+				598F92371DB5BC69004F9597 /* GeometryCalculator.swift */,
+				598F92381DB5BC69004F9597 /* GeometryType.swift */,
+				598F92391DB5BC69004F9597 /* IsoscelesTriangularPrism.swift */,
+				598F923A1DB5BC69004F9597 /* RectangularPrism.swift */,
+				598F923B1DB5BC69004F9597 /* Sphere.swift */,
+				598F923C1DB5BC69004F9597 /* SquarePyramid.swift */,
+				598F92141DB5BC1C004F9597 /* AppDelegate.swift */,
+				598F92161DB5BC1C004F9597 /* ViewController.swift */,
+				598F92181DB5BC1C004F9597 /* Main.storyboard */,
+				598F921B1DB5BC1C004F9597 /* Assets.xcassets */,
+				598F921D1DB5BC1C004F9597 /* LaunchScreen.storyboard */,
+				598F92201DB5BC1C004F9597 /* Info.plist */,
+			);
+			path = SimpleGeometryCalculator;
+			sourceTree = "<group>";
+		};
+		598F92281DB5BC1C004F9597 /* SimpleGeometryCalculatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				598F92291DB5BC1C004F9597 /* SimpleGeometryCalculatorTests.swift */,
+				598F922B1DB5BC1C004F9597 /* Info.plist */,
+			);
+			path = SimpleGeometryCalculatorTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		598F92101DB5BC1C004F9597 /* SimpleGeometryCalculator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 598F922E1DB5BC1C004F9597 /* Build configuration list for PBXNativeTarget "SimpleGeometryCalculator" */;
+			buildPhases = (
+				598F920D1DB5BC1C004F9597 /* Sources */,
+				598F920E1DB5BC1C004F9597 /* Frameworks */,
+				598F920F1DB5BC1C004F9597 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SimpleGeometryCalculator;
+			productName = SimpleGeometryCalculator;
+			productReference = 598F92111DB5BC1C004F9597 /* SimpleGeometryCalculator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		598F92241DB5BC1C004F9597 /* SimpleGeometryCalculatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 598F92311DB5BC1C004F9597 /* Build configuration list for PBXNativeTarget "SimpleGeometryCalculatorTests" */;
+			buildPhases = (
+				598F92211DB5BC1C004F9597 /* Sources */,
+				598F92221DB5BC1C004F9597 /* Frameworks */,
+				598F92231DB5BC1C004F9597 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				598F92271DB5BC1C004F9597 /* PBXTargetDependency */,
+			);
+			name = SimpleGeometryCalculatorTests;
+			productName = SimpleGeometryCalculatorTests;
+			productReference = 598F92251DB5BC1C004F9597 /* SimpleGeometryCalculatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		598F92091DB5BC1C004F9597 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = DaesubKim;
+				TargetAttributes = {
+					598F92101DB5BC1C004F9597 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = NE9YAC47HN;
+					};
+					598F92241DB5BC1C004F9597 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = NE9YAC47HN;
+						TestTargetID = 598F92101DB5BC1C004F9597;
+					};
+				};
+			};
+			buildConfigurationList = 598F920C1DB5BC1C004F9597 /* Build configuration list for PBXProject "SimpleGeometryCalculator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 598F92081DB5BC1C004F9597;
+			productRefGroup = 598F92121DB5BC1C004F9597 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				598F92101DB5BC1C004F9597 /* SimpleGeometryCalculator */,
+				598F92241DB5BC1C004F9597 /* SimpleGeometryCalculatorTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		598F920F1DB5BC1C004F9597 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				598F921F1DB5BC1C004F9597 /* LaunchScreen.storyboard in Resources */,
+				598F921C1DB5BC1C004F9597 /* Assets.xcassets in Resources */,
+				598F921A1DB5BC1C004F9597 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		598F92231DB5BC1C004F9597 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		598F920D1DB5BC1C004F9597 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				598F92441DB5BC69004F9597 /* Sphere.swift in Sources */,
+				598F923D1DB5BC69004F9597 /* Cone.swift in Sources */,
+				598F92411DB5BC69004F9597 /* GeometryType.swift in Sources */,
+				598F92431DB5BC69004F9597 /* RectangularPrism.swift in Sources */,
+				598F92171DB5BC1C004F9597 /* ViewController.swift in Sources */,
+				598F92151DB5BC1C004F9597 /* AppDelegate.swift in Sources */,
+				598F92451DB5BC69004F9597 /* SquarePyramid.swift in Sources */,
+				598F92401DB5BC69004F9597 /* GeometryCalculator.swift in Sources */,
+				598F923E1DB5BC69004F9597 /* Cylinder.swift in Sources */,
+				598F923F1DB5BC69004F9597 /* Geometry.swift in Sources */,
+				598F92421DB5BC69004F9597 /* IsoscelesTriangularPrism.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		598F92211DB5BC1C004F9597 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				598F922A1DB5BC1C004F9597 /* SimpleGeometryCalculatorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		598F92271DB5BC1C004F9597 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 598F92101DB5BC1C004F9597 /* SimpleGeometryCalculator */;
+			targetProxy = 598F92261DB5BC1C004F9597 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		598F92181DB5BC1C004F9597 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				598F92191DB5BC1C004F9597 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		598F921D1DB5BC1C004F9597 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				598F921E1DB5BC1C004F9597 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		598F922C1DB5BC1C004F9597 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		598F922D1DB5BC1C004F9597 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		598F922F1DB5BC1C004F9597 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SimpleGeometryCalculator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.daesub.SimpleGeometryCalculator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		598F92301DB5BC1C004F9597 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SimpleGeometryCalculator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.daesub.SimpleGeometryCalculator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		598F92321DB5BC1C004F9597 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SimpleGeometryCalculatorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.daesub.SimpleGeometryCalculatorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SimpleGeometryCalculator.app/SimpleGeometryCalculator";
+			};
+			name = Debug;
+		};
+		598F92331DB5BC1C004F9597 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SimpleGeometryCalculatorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.daesub.SimpleGeometryCalculatorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SimpleGeometryCalculator.app/SimpleGeometryCalculator";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		598F920C1DB5BC1C004F9597 /* Build configuration list for PBXProject "SimpleGeometryCalculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				598F922C1DB5BC1C004F9597 /* Debug */,
+				598F922D1DB5BC1C004F9597 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		598F922E1DB5BC1C004F9597 /* Build configuration list for PBXNativeTarget "SimpleGeometryCalculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				598F922F1DB5BC1C004F9597 /* Debug */,
+				598F92301DB5BC1C004F9597 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		598F92311DB5BC1C004F9597 /* Build configuration list for PBXNativeTarget "SimpleGeometryCalculatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				598F92321DB5BC1C004F9597 /* Debug */,
+				598F92331DB5BC1C004F9597 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 598F92091DB5BC1C004F9597 /* Project object */;
+}
